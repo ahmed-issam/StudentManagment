@@ -1,10 +1,11 @@
 package com.example.demo2;
 
-public class StudentDataLayer {private int id;
+public class StudentDataLayer {
+    private int id;
     private String fullName;
     private Integer grade;
 
-    public StudentDataLayer (int id, String name, Integer grade) {
+    public StudentDataLayer(int id, String name, Integer grade) {
         this.id = id;
         this.fullName = name;
         this.grade = grade;
