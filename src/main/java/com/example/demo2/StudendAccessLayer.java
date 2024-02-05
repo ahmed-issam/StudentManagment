@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class StudendAccessLayer {
-  private   Map<Integer, StudentDataLayer> allStudents = new HashMap<>();
+    private Map<Integer, StudentDataLayer> allStudents = new HashMap<>();
 
     public Map<Integer, StudentDataLayer> getAllStudents() {
         return allStudents;
@@ -25,6 +25,7 @@ public class StudendAccessLayer {
         text.setId(allStudents.size() + 1);
         allStudents.put(text.getId(), text);
     }
+
     public void replaceData(StudentDataLayer text) {
         allStudents.put(text.getId(), text);
     }
